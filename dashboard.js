@@ -1,3 +1,5 @@
+import Chart from 'chart.js/auto';
+
 var chart    = document.getElementById('chart').getContext('2d'),
     gradient = chart.createLinearGradient(0, 0, 0, 450);
 
@@ -14,7 +16,8 @@ var data  = {
 			pointBackgroundColor: '#00c7d6',
 			borderWidth: 1,
 			borderColor: '#0e1a2f',
-			data: [60, 45, 80, 30, 35, 55,25,80,40,50,80,50]
+			data: [60, 45, 80, 30, 35, 55,25,80,40,50,80,50],
+			fill: true
     }]
 };
 
