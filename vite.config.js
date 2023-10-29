@@ -8,6 +8,7 @@ export default defineConfig({
         main: resolve(__dirname, "index.html"),
         general: resolve(__dirname, "general.html"),
         register: resolve(__dirname, "register.html"),
+        dashboard: resolve(__dirname, "dashboard.html"),
       },
     },
   },
